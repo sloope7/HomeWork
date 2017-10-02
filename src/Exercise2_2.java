@@ -4,23 +4,23 @@ public class Exercise2_2 {
 
 	public static void main(String[] args) {
 		Scanner scanner1 = new Scanner(System.in);
-        System.out.println("Введите первое целое число");
+        System.out.println("Vvedite pervoe celoe chislo");
         int firstNumber = 0;
             if(scanner1.hasNextInt()){
                 firstNumber = scanner1.nextInt();
             } else{
-                System.out.println("Вы ввели нецелое число");
+                System.out.println("Vi vveli neceloe chislo");
                 return;
             }
-        System.out.println("Введите второе целое число");
+        System.out.println("Vvedite vtoroe celoe chislo");
         int secondNumber = 0;
             if(scanner1.hasNextInt()){
                 secondNumber = scanner1.nextInt();
             } else{
-                System.out.println("Вы ввели нецелое число");
+                System.out.println("Vi vveli neceloe chislo");
                 return;
             }
-        System.out.println("Введите симол операции");
+        System.out.println("Vvedite simvol operacii");
         Scanner scanner2 = new Scanner(System.in);
         String symbol = scanner2.nextLine();
         switch (symbol){
@@ -41,7 +41,7 @@ public class Exercise2_2 {
                 break;
             }
             default:{
-                System.out.println("Вы ввели неверный символ операции");
+                System.out.println("Vi vveli nevernii simvol operacii");
             }
         }
 

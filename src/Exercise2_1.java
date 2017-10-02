@@ -5,11 +5,11 @@ public class Exercise2_1 {
 	public static void main(String[] args) {
 		Scanner scanner1 = new Scanner(System.in);
         Scanner scanner2 = new Scanner(System.in);
-        System.out.println("Введите первое целое число");
+        System.out.println("Vvedite pervoe celoe chislo");
         int firstNumber = scanner1.nextInt();
-        System.out.println("Введите второе целое число");
+        System.out.println("Vvedite vtoroe celoe chislo");
         int secondNumber = scanner1.nextInt();
-        System.out.println("Введите симол операции");
+        System.out.println("Vvedite simvol operacii");
         String symbol = scanner2.nextLine();
         switch (symbol){
             case "+":{
@@ -29,7 +29,7 @@ public class Exercise2_1 {
                 break;
             }
             default:{
-                System.out.println("Вы ввели неверный символ операции");
+                System.out.println("Vi vveli nevernii simvol operacii");
             }
 
         }
