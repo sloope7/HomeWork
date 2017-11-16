@@ -5,7 +5,7 @@ import java.util.HashMap;
 public class Convertor implements IConvertor {
 
     HashMap<Currency,Double> courses = new HashMap<Currency,Double>();
-    {
+    static{
         courses.put(Currency.BYN,1.00);
         courses.put(Currency.USD,1.99);
         courses.put(Currency.EUR,2.33);
